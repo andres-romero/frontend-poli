@@ -1,0 +1,91 @@
+body {
+    background: url(../img/bg4.jpg);
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+  width: 38%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 30px;
+  border: transparent;
+  font-family: "Mitr", sans-serif;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin: 0px 1px 0px 40px;
+  padding: 3px 30px 6px 1px;
+}
+
+input[type="text"] {
+  border: 1px solid rgb(199, 198, 198);
+  border-radius: 10px;
+  padding: 3px 200px 6px 3px;
+}
+
+input[type="password"] {
+  border: 1px solid rgb(199, 198, 198);
+  border-radius: 10px;
+  padding: 3px 200px 6px 3px;
+}
+
+button[type="submit"] {
+  border-collapse: collapse;
+  border: transparent;
+  border-radius: 15px;
+  font-family: "Mitr", sans-serif;
+  color: black;
+  margin: 10px 0px 5px 160px;
+  padding: 5px 50px 5px 50px;
+  background-color: #57ba29;
+  transition: 0.5s;
+}
+
+button[type="submit"]:hover {
+  color: black;
+  background-color: #dbc70f;
+}
+
+.returnlogin {
+  text-decoration: none;
+  font-size: 13px;
+  border-collapse: collapse;
+  border: transparent;
+  border-radius: 15px;
+  color: white;
+  margin: 4px 0px 0px 30px;
+  padding: 5px 50px 5px 50px;
+  background-color: #128ac2;
+  transition: 0.5s;
+}
+
+.form-control {
+  font-family: "Mitr", sans-serif;
+  width: 200px;
+}
+
+.returnlogin:hover {
+  background-color: #298dba;
+  color: white;
+}
+
+.footer {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-family: "Mitr", sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #298dba;
+}
